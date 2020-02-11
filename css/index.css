@@ -100,27 +100,6 @@ html, body {
     position: relative;
 }
 
-.carousel__container #textCarousel {
-    padding-top: 200px;
-}
-
-.carousel-indicators {
-    position: absolute;
-    bottom: -50%;
-}
-
-.carousel-indicators li {
-    background-color: #7F67F8;
-    border-radius: 50%;
-    height: 15px;
-    margin: 0 5px;
-    width: 15px;
-}
-
-.carousel-indicators li.active {
-    background-color: white;
-}
-
 /* END SLIDER */
 
 /* FOCUSING SERVICES */
@@ -252,5 +231,30 @@ html, body {
 /* END COUNT NUMBER */
 
 /* MAIN SERVICES */
+.mainServices {
+    background: url(../images/3.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    text-align: center;
+}
 
+.mainServices__items {
+    padding: 20px 20px;
+}
+
+.mainServices__items i {
+    font-size: 3em;
+}
+
+.mainServices__item1, .mainServices__item3, .mainServices__item5 {
+    color: white;
+    background-color: #f97c69;
+}
+
+.mainServices__item2, .mainServices__item4, .mainServices__item6 {
+    background-color: white;
+}
+
+.mainServices__item2 i, .mainServices__item4 i, .mainServices__item6 i {
+    color: #f97c69;
+}
 /* END MAIN SERVICES */
