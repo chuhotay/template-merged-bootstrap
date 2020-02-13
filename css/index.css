@@ -238,7 +238,7 @@ html, body {
 }
 
 .mainServices__items {
-    padding: 20px 20px;
+    padding: 80px 30px;
 }
 
 .mainServices__items i {
@@ -257,4 +257,31 @@ html, body {
 .mainServices__item2 i, .mainServices__item4 i, .mainServices__item6 i {
     color: #f97c69;
 }
+
+.mainService__title {
+    padding: 100px 0 100px 0;
+}
+
+.mainService__title h3 {
+    font-size: 3.5em;
+}
+
+.mainService__title p {
+    padding-top: 10px;
+}
+
+.mainServices__items h6 {
+    font-size: 1.8em;
+    margin: 1em 0;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.mainServices__items p {
+    letter-spacing: 1px;
+    font-size: 1.5em;
+}
+
+
+
 /* END MAIN SERVICES */
