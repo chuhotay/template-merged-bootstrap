@@ -61,7 +61,6 @@ html, body {
     font-size: 15px;
     letter-spacing: 0.1em;
     font-weight: 600;
-
 }
 
 .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
@@ -84,13 +83,15 @@ html, body {
 .navbar .navbar-brand span {
     color: #7F67F8;
     font-weight: bold;
-    font-size: 38px;    
+    font-size: 38px;
 }
+
 /* end navBar */
 
 /* END HEADER */
 
 /* SLIDER */
+
 .slider__content {
     background: url(../images/b1.jpg) no-repeat 0px 0px;
     text-align: center;
@@ -103,6 +104,7 @@ html, body {
 /* END SLIDER */
 
 /* FOCUSING SERVICES */
+
 .focusingServices__content {
     text-align: center;
     margin: 30px 0;
@@ -139,8 +141,7 @@ html, body {
     font-weight: bold;
 }
 
-.focusingServices_item1, .focusingServices_item2,     
-.focusingServices_item3 {
+.focusingServices_item1, .focusingServices_item2, .focusingServices_item3 {
     margin: 20px 0;
 }
 
@@ -155,6 +156,7 @@ html, body {
 /* END FOCUSING SERVICES */
 
 /* BANNER CONTACT */
+
 .bannerContact {
     background: url(../images/3.jpg) no-repeat 0px 0px;
     text-align: center;
@@ -176,7 +178,7 @@ html, body {
 .bannerContact__button a:hover {
     background-color: #f97c69;
     transition: all .5s;
-} 
+}
 
 .bannerContact__text h3 {
     color: white;
@@ -184,9 +186,11 @@ html, body {
     letter-spacing: 3px;
     margin-bottom: 25px;
 }
+
 /* END BANNER CONTACT */
 
 /* COUNT NUMBER */
+
 .countNumber {
     margin: 90px 0;
 }
@@ -213,7 +217,6 @@ html, body {
     font-weight: 500;
     letter-spacing: 2px;
     color: #f97c69;
-
 }
 
 .countNumber__items h3 {
@@ -228,13 +231,19 @@ html, body {
     margin-top: 0.8em;
     color: #777;
 }
+
 /* END COUNT NUMBER */
 
 /* MAIN SERVICES */
+
 .mainServices {
     background: url(../images/3.jpg) no-repeat 0px 0px;
     background-size: cover;
     text-align: center;
+}
+
+.mainServices__content {
+    padding-bottom: 150px;
 }
 
 .mainServices__items {
@@ -268,11 +277,12 @@ html, body {
 
 .mainService__title p {
     padding-top: 10px;
+    font-size: 1.5em;
 }
 
 .mainServices__items h6 {
     font-size: 1.8em;
-    margin: 1em 0;
+    margin: 0.5em 0;
     letter-spacing: 2px;
     font-weight: 600;
 }
@@ -282,6 +292,62 @@ html, body {
     font-size: 1.5em;
 }
 
-
-
 /* END MAIN SERVICES */
+
+/* OUR CUSTOMER */
+
+.ourCustomer__content {
+    text-align: center;
+}
+
+.ourCustomer__title h6 {
+    font-size: 3.5em;
+    margin-top: 100px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
+}
+
+.ourCustomer__title p {
+    letter-spacing: 1px;
+    color: rgb(127, 130, 133);
+    padding: 20px 0 70px 0;
+}
+
+.carousel-inner .carousel-item img {
+    width: 110px;
+    border-radius: 50%;
+    background-color: #7F67F8;
+    padding: 5px;
+}
+
+.carousel-inner .carousel-item h3 {
+    color: #2c363e;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 20px 0 0;
+    font-size: 20px;
+} 
+
+.carousel-inner .carousel-item p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #7f8285;
+    margin: 15px 0 0;
+}
+
+.carousel-indicators {
+    transform: translateY(100px);
+}
+
+.carousel-indicators li {
+    width: 13px;
+    height: 13px;
+    margin: 7px;
+    border-radius: 50%;
+}
+
+#ourCustomerCarousel .carousel-indicators li {
+    background-color: #f97c69;
+} 
+
+
+/* END OUR CUSTOMER */
